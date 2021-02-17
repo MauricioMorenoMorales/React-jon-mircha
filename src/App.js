@@ -1,6 +1,7 @@
 import logo from './logo.svg'
 import Component from './components/Componente'
 import Propiedades from './components/Propiedades'
+import Estado from './components/estado'
 import './App.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
 				>
 					Learn React
 				</a>
+				<Estado />
 				<Component text="Hola mundo desde un componente" />
 				<Propiedades
 					cadena="Esto es una cadena de texto"
