@@ -2,6 +2,7 @@ import logo from './logo.svg'
 import Component from './components/Componente'
 import Propiedades from './components/Propiedades'
 import Estado from './components/estado'
+import RenderizadoCondicional from './components/RenderizadoCondicional'
 import './App.css'
 
 function App() {
@@ -20,8 +21,8 @@ function App() {
 				>
 					Learn React
 				</a>
-				<Estado />
 				<Component text="Hola mundo desde un componente" />
+				<RenderizadoCondicional />
 				<Propiedades
 					cadena="Esto es una cadena de texto"
 					numero={12345}
@@ -32,6 +33,7 @@ function App() {
 					elementoReact={<i>Esto es un elemento react</i>}
 					componenteReact={<Component />}
 				/>
+				<Estado />
 			</header>
 		</div>
 	)
