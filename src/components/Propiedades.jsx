@@ -21,7 +21,7 @@ const Propiedades = props => {
 }
 
 Propiedades.defaultProps = {
-	porDefecto: 'Las pros',
+	porDefecto: 'Las props',
 }
 
 Propiedades.propTypes = {

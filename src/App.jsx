@@ -3,6 +3,7 @@ import Component from './components/Componente'
 import Propiedades from './components/Propiedades'
 import Estado from './components/estado'
 import RenderizadoCondicional from './components/RenderizadoCondicional'
+import RenderizadoElementos from './components/RenderizadoElementos'
 import './App.css'
 
 function App() {
@@ -22,7 +23,6 @@ function App() {
 					Learn React
 				</a>
 				<Component text="Hola mundo desde un componente" />
-				<RenderizadoCondicional />
 				<Propiedades
 					cadena="Esto es una cadena de texto"
 					numero={12345}
@@ -34,6 +34,8 @@ function App() {
 					componenteReact={<Component />}
 				/>
 				<Estado />
+				<RenderizadoCondicional />
+				<RenderizadoElementos />
 			</header>
 		</div>
 	)

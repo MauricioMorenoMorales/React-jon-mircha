@@ -25,6 +25,7 @@ export default class RenderizadoCondicional extends React.Component {
 	render() {
 		return (
 			<div>
+				<hr />
 				<h3>Renderizado condicional</h3>
 				{this.state.session ? <Login /> : <Logout />}
 			</div>
