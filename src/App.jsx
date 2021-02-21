@@ -4,6 +4,7 @@ import Propiedades from './components/Propiedades'
 import Estado from './components/estado'
 import RenderizadoCondicional from './components/RenderizadoCondicional'
 import RenderizadoElementos from './components/RenderizadoElementos'
+import Eventos from './components/Eventos'
 import './App.css'
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
 				<Estado />
 				<RenderizadoCondicional />
 				<RenderizadoElementos />
+				<Eventos />
 			</header>
 		</div>
 	)
