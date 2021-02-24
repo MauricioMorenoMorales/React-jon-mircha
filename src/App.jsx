@@ -5,6 +5,7 @@ import Estado from './components/estado'
 import RenderizadoCondicional from './components/RenderizadoCondicional'
 import RenderizadoElementos from './components/RenderizadoElementos'
 import Eventos from './components/Eventos'
+import { PropertyInitializers } from './components/PropertyInitializers'
 import './App.css'
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
 					Learn React
 				</a>
 				<Component text="Hola mundo desde un componente" />
+				<PropertyInitializers />
 				<Propiedades
 					cadena="Esto es una cadena de texto"
 					numero={12345}
