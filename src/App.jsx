@@ -10,6 +10,7 @@ import {
 	MasSobreEventos,
 } from './components/Eventos'
 import ComunicacionComponentes from './components/ComunicacionComponentes'
+import CicloVida from './components/CicloVida'
 import './App.css'
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
 					Learn React
 				</a>
 				<Component text="Hola mundo desde un componente" />
+				<CicloVida />
 				<ComunicacionComponentes />
 				<MasSobreEventos />
 				<Propiedades
