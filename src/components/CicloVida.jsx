@@ -5,7 +5,7 @@ class Reloj extends React.Component {
 		super(props)
 	}
 	componentWillUnmount() {
-		console.log(3, 'El componente ha sido eliminado de el DOM')
+		// console.log(3, 'El componente ha sido eliminado de el DOM')
 	}
 	render() {
 		return <h4>{this.props.hora}</h4>
@@ -16,7 +16,7 @@ export default class CicloVida extends React.Component {
 	constructor(props) {
 		//Primero en ejecutarse
 		super(props)
-		console.log(0, 'El componente se inicializa, aún no está en el DOM')
+		// console.log(0, 'El componente se inicializa, aún no está en el DOM')
 		this.state = {
 			hora: new Date().toLocaleTimeString(),
 			visible: false,
@@ -25,16 +25,16 @@ export default class CicloVida extends React.Component {
 	}
 	componentDidMount() {
 		//Tercero en ejecutarse
-		console.log(1, 'El componente ya se encuentra en el dom')
+		// console.log(1, 'El componente ya se encuentra en el dom')
 	}
 	componentDidUpdate(prevProps, prevState) {
 		//Cuarto en ejecutarse
-		console.log(2, 'El estado o las props de el componente han cambiado')
-		console.log(prevProps)
-		console.log(prevProps)
+		// console.log(2, 'El estado o las props de el componente han cambiado')
+		// console.log(prevProps)
+		// console.log(prevProps)
 	}
 	componentWillUnmount() {
-		console.log(3, 'El componente ha sido eliminado de el DOM')
+		// console.log(3, 'El componente ha sido eliminado de el DOM')
 	}
 	tictac = () => {
 		this.temporizador = setInterval(() => {
@@ -57,10 +57,10 @@ export default class CicloVida extends React.Component {
 	}
 	render() {
 		//Segundo en ejecutarse
-		console.log(
-			4,
-			'El componente se dibuja o redibuja por algún cambio en el DOM',
-		)
+		// console.log(
+		// 	4,
+		// 	'El componente se dibuja o redibuja por algún cambio en el DOM',
+		// )
 		return (
 			<div>
 				<hr />
