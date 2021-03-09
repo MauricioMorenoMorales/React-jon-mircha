@@ -10,8 +10,8 @@ const ScrollHooks = () => {
 			window.removeEventListener('scroll', detectarScroll)
 		}
 	}, [scrollY])
-	useEffect(() => console.log('fase de montaje'), [])
-	useEffect(() => console.log('fase de actualizacion'))
+	// useEffect(() => console.log('fase de montaje'), [])
+	// useEffect(() => console.log('fase de actualizacion'))
 	// useEffect(() => {
 	// 	return () => {
 	// 		console.log('Fase de Desmontaje')

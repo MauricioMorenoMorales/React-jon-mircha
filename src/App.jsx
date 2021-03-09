@@ -14,6 +14,8 @@ import CicloVida from './components/CicloVida'
 import AjaxApis from './components/AjaxApis'
 import ContadorHooks from './components/ContadorHooks'
 import ScrollHooks from './components/ScrollHooks'
+import RelojHooks from './components/RelojHooks'
+import AjaxHooks from './components/AjaxHooks'
 
 import './App.css'
 
@@ -34,7 +36,7 @@ function App() {
 					Learn React
 				</a>
 				<Component text="Hola mundo desde un componente" />
-				<ScrollHooks />
+				<AjaxHooks />
 				<ComunicacionComponentes />
 				<MasSobreEventos />
 				<Propiedades
@@ -55,6 +57,8 @@ function App() {
 				<CicloVida />
 				<AjaxApis />
 				<ContadorHooks />
+				<ScrollHooks />
+				<RelojHooks />
 			</header>
 		</div>
 	)
