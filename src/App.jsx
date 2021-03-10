@@ -16,6 +16,7 @@ import ContadorHooks from './components/ContadorHooks'
 import ScrollHooks from './components/ScrollHooks'
 import RelojHooks from './components/RelojHooks'
 import AjaxHooks from './components/AjaxHooks'
+import HooksPersonalizados from './components/HooksPersonalizados'
 
 import './App.css'
 
@@ -36,7 +37,6 @@ function App() {
 					Learn React
 				</a>
 				<Component text="Hola mundo desde un componente" />
-				<AjaxHooks />
 				<ComunicacionComponentes />
 				<MasSobreEventos />
 				<Propiedades
@@ -59,6 +59,8 @@ function App() {
 				<ContadorHooks />
 				<ScrollHooks />
 				<RelojHooks />
+				<AjaxHooks />
+				<HooksPersonalizados />
 			</header>
 		</div>
 	)
