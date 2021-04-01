@@ -18,6 +18,8 @@ import RelojHooks from './components/RelojHooks'
 import AjaxHooks from './components/AjaxHooks'
 import HooksPersonalizados from './components/HooksPersonalizados'
 import Referencias from './components/Referencias'
+import { FormulariosObjeto as Formularios } from './components/Formularios'
+import Estilos from './components/Estilos'
 
 import './App.css'
 
@@ -38,6 +40,7 @@ function App() {
 					Learn React
 				</a>
 				<Component text="Hola mundo desde un componente" />
+				<Estilos />
 				<ComunicacionComponentes />
 				<MasSobreEventos />
 				<Propiedades
@@ -63,6 +66,7 @@ function App() {
 				<AjaxHooks />
 				<HooksPersonalizados />
 				<Referencias />
+				<Formularios />
 			</header>
 		</div>
 	)
