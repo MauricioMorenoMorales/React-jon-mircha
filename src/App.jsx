@@ -20,8 +20,11 @@ import HooksPersonalizados from './components/HooksPersonalizados'
 import Referencias from './components/Referencias'
 import { FormulariosObjeto as Formularios } from './components/Formularios'
 import Estilos from './components/Estilos'
+import ComponentesEstilizados from './components/ComponentesEstilizados'
 
 import './App.css'
+
+// ! Html Css
 
 function App() {
 	return (
@@ -40,7 +43,7 @@ function App() {
 					Learn React
 				</a>
 				<Component text="Hola mundo desde un componente" />
-				<Estilos />
+				<ComponentesEstilizados />
 				<ComunicacionComponentes />
 				<MasSobreEventos />
 				<Propiedades
@@ -67,6 +70,7 @@ function App() {
 				<HooksPersonalizados />
 				<Referencias />
 				<Formularios />
+				<Estilos />
 			</header>
 		</div>
 	)
