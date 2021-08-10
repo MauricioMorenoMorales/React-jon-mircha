@@ -5,6 +5,8 @@ import App from './App.jsx'
 import reportWebVitals from './reportWebVitals'
 import Component from './components/Componente'
 
+console.log("testing github problem")
+
 ReactDOM.render(
 	<React.StrictMode>
 		<App />
